@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.xzx</groupId>
+  <artifactId>archetype_base-archetype</artifactId>
+  <version>1.0.0</version>
+  <packaging>maven-archetype</packaging>
+
+  <name>archetype_base-archetype</name>
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>3.1.2</version>
+      </extension>
+    </extensions>
+
+    <pluginManagement>
+      <plugins>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <description>Base archetype Project</description>
+
+  <url>https://spring.io/projects/spring-boot/archetype_base</url>
+
+  <developers>
+    <developer>
+      <name>Pivotal</name>
+      <email>info@pivotal.io</email>
+      <organization>Pivotal Software, Inc.</organization>
+      <organizationUrl>https://www.spring.io</organizationUrl>
+    </developer>
+  </developers>
+
+  <distributionManagement>
+    <repository>
+      <id>local-gitee-maven-repo</id>
+      <name>maven-repo</name>
+      <url>file:/Users/admin/Desktop/gitee/mvn-repo</url>
+    </repository>
+  </distributionManagement>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>https://github.com/spring-projects/spring-boot/archetype_base</url>
+  </scm>
+</project>
